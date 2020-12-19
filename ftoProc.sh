@@ -60,6 +60,9 @@ bxde-dev
 blee-model
 overview
 bisos-model
+bisos-periphery
+bisos-apps
+espoused
 blee-dev
 bisos-core
 blee-core
