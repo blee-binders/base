@@ -56,6 +56,7 @@ _CommentEnd_
 # {{{ DBLOCK-nodesList
 nodesList="
 bisos-dev
+desktop
 bxde-core
 bxde-model
 bxde-dev
@@ -69,6 +70,7 @@ espoused
 blee-dev
 bisos-core
 blee-core
+connectivity
 "
 # }}} DBLOCK-nodesList
 ####+END:
