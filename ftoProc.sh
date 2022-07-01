@@ -41,8 +41,13 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
+<<<<<<< HEAD
 overview
 panelsRoot
+=======
+panelsRoot
+overview
+>>>>>>> 0b296a640e2a8dad0db26cd6240fcf4eff813cf3
 "
 # }}} DBLOCK-leavesList
 ####+END:
