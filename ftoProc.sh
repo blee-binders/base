@@ -13,13 +13,13 @@ __copying__="
 
 ####+BEGIN: bx:bsip:bash:seed-spec :types "seedFtoCommon.sh"
 SEED="
-*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] | 
+*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/ftoProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/ftoProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
-    /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
+    /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@"
     exit $?
 fi
 ####+END:
@@ -41,6 +41,8 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
+overview
+panelsRoot
 "
 # }}} DBLOCK-leavesList
 ####+END:
@@ -57,23 +59,24 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-bisos-apps
+system-container
 _nodeBase_
-espoused
-blee-dev
+bisos-svcs
+bxde-core
+connectivity
+bisos-apps
 bisos-dev
+bisos-core
 bxde-model
 bisos-model
-connectivity
 bxde-dev
-bisos-periphery
-bxde-core
-blee-model
+blee-dev
 blee-core
-desktop
-bisos-svcs
-bisos-core
+espoused
 non-libre-halaal
+desktop
+bisos-periphery
+blee-model
 "
 # }}} DBLOCK-nodesList
 ####+END:
