@@ -16,7 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/ftoProc.sh
+*  /This File/ :: /bisos/panels/ftoProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@"
@@ -64,14 +64,23 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+<<<<<<< Updated upstream
 system-container
 _nodeBase_
 bisos-svcs
 bxde-core
+=======
+blee-core
+bxde-core
+bisos-svcs
+bisos-periphery
+_nodeBase_
+>>>>>>> Stashed changes
 connectivity
 bisos-apps
 bisos-dev
 bisos-core
+<<<<<<< Updated upstream
 bxde-model
 bisos-model
 bxde-dev
@@ -82,6 +91,13 @@ non-libre-halaal
 desktop
 bisos-periphery
 blee-model
+=======
+development
+desktop
+system-container
+bisos-apps
+espoused
+>>>>>>> Stashed changes
 "
 # }}} DBLOCK-nodesList
 ####+END:
