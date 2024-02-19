@@ -16,11 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedBleePanelProc.sh]] |
 "
 FILE="
-<<<<<<< Updated upstream
 *  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/bleePanelProc.sh
-=======
-*  /This File/ :: /bisos/panels/bleePanelProc.sh
->>>>>>> Stashed changes
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedBleePanelProc.sh -l $0 "$@"

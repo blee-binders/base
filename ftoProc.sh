@@ -41,13 +41,8 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
-<<<<<<< HEAD
-overview
-panelsRoot
-=======
 panelsRoot
 overview
->>>>>>> 0b296a640e2a8dad0db26cd6240fcf4eff813cf3
 "
 # }}} DBLOCK-leavesList
 ####+END:
@@ -64,40 +59,20 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-<<<<<<< Updated upstream
-system-container
-_nodeBase_
-bisos-svcs
-bxde-core
-=======
 blee-core
+development.new
 bxde-core
 bisos-svcs
 bisos-periphery
 _nodeBase_
->>>>>>> Stashed changes
 connectivity
-bisos-apps
-bisos-dev
-bisos-core
-<<<<<<< Updated upstream
-bxde-model
-bisos-model
-bxde-dev
-blee-dev
-blee-core
-espoused
 non-libre-halaal
-desktop
-bisos-periphery
-blee-model
-=======
+bisos-core
 development
 desktop
 system-container
 bisos-apps
 espoused
->>>>>>> Stashed changes
 "
 # }}} DBLOCK-nodesList
 ####+END:
