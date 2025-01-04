@@ -43,14 +43,22 @@
 * +
 * =BISOS Capability Bundles= are facilities that provide for augmentation of BPO-Platforms.
 * Capability Bundles can be /Materialized/. The Meterialized Capability can be in the form of
-*  1) A BISOS Enhancement (Emacs 30 for Deb 12)
-*  2) A Usage Enhancement (eg LCNT)
-*  3) An Independent Service (eg DHCP)
-*  4) A Web Vir Dom Service (eg https://1.mohsen.banan.byname.net)
-*  5) A Mail Vir Dom Service (eg mailto:main@1.mohsen.banan.byname.net)
+*  1) A BISOS Enhancement (Emacs 30 for Deb 12) Think of these as /Optional Feature/
+*  2) A Usage Enhancement (eg LCNT) --- Think of These As /Apps/
+*  3) An Independent Service (eg DHCP) --- /Service Component/
+*  4) A Web Vir Dom Service (eg https://1.mohsen.banan.byname.net)  --- /Complete Web Service/
+*  5) A Mail Vir Dom Service (eg mailto:main@1.mohsen.banan.byname.net) --- /Complete Mail Service/
 * ---
-*  Capability Bundles can contain other Capability Bundles
-*
+* Capability Bundles can contain other Capability Bundles. For example a web virdom service contains indipendent services
+* ---
+* Capability Bundles are Applicable to Network Abodes. For example, you can only run a VPN service in the Exposed-Rim.
+* ---
+* Materialization is always in the context of the Platform-BPO. Additional BPOs can also be relevant.
+* For example the data of a DNS server is contained along with the Capability Bundle.
+* ---
+* Capability Meterialization is done with bisos.capMater package.
+*  /capMater Specification Files/ (Capability Bundle Materialization Specification File)  resides in the
+* sys/cap repo of BPO-Platform.
 * -B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
